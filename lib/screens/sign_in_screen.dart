@@ -101,9 +101,6 @@ class SignInScreen extends StatelessWidget {
                       CustomButton(
                         text: 'Register with email',
                         onPressed: () {
-                          Navigator.push(context,
-                              MaterialPageRoute(builder: (context) {
-                            return const HostScreen();
                           }));
                         },
                       ),
